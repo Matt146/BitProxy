@@ -1,0 +1,10 @@
+Abstract:
+	- A simple Proxy with a simple protocol
+
+Protocol:
+	- Connect to server and send "Route" to route
+	- Routing takes three arguments:
+		- host
+		- port
+		- request (data)
+	- Sends the data received back to client and closes connections
