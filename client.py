@@ -10,7 +10,7 @@ LOCK = threading.Lock()
 
 def log_data(data):
     with LOCK:
-        f = open(DATAFILE, "r")
+        f = open(DATAFILE, "w")
         f.write(data)
         f.close()
 
